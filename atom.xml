@@ -5,7 +5,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="http://azmake.github.io/"/>
-  <updated>2017-01-18T07:52:57.000Z</updated>
+  <updated>2017-01-18T09:27:30.000Z</updated>
   <id>http://azmake.github.io/</id>
   
   <author>
@@ -16,35 +16,92 @@
   <generator uri="http://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>Mac_CSV文件乱码解决方法</title>
-    <link href="http://azmake.github.io/2017/01/18/Mac-CSV/"/>
-    <id>http://azmake.github.io/2017/01/18/Mac-CSV/</id>
-    <published>2017-01-18T06:14:16.000Z</published>
-    <updated>2017-01-18T07:52:57.000Z</updated>
+    <title>terminal终端首页图案</title>
+    <link href="http://azmake.github.io/2017/01/18/terminal-welcome-logo/"/>
+    <id>http://azmake.github.io/2017/01/18/terminal-welcome-logo/</id>
+    <published>2017-01-18T09:24:30.000Z</published>
+    <updated>2017-01-18T09:27:30.000Z</updated>
     
-    <content type="html"><![CDATA[<p><img src="/assets/img/Mac-CSV文件乱码解决方法.jpg" alt=""></p>
-<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">1、在 Mac 上启动 Excel，新建一个空文件  </div><div class="line"></div><div class="line">2、File =&gt; import  </div><div class="line"></div><div class="line">3、选择要打开的CSV文件</div><div class="line"></div><div class="line">4、调整 File origin 选项里的文字编码，一般是 UTF8 或者GBK2312，可以预览是否是正确的编码，这里可以看到分隔符是&apos;，&apos;还是&apos;；&apos;或者其它</div><div class="line"></div><div class="line">5、选择步骤4中预览看到的分隔符分隔符</div></pre></td></tr></table></figure>]]></content>
+    <content type="html"><![CDATA[<p>打开终端（可以command+空格键，然后输入ter自动打开终端）  </p>
+<p>输入 cd /etc</p>
+<p>输入 sudo pico motd</p>
+<p>然后将想要输入的图案或文字在终端中粘贴</p>
+<p>最后，按键：control+x ,再按y回车保存。 </p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div><div class="line">18</div><div class="line">19</div><div class="line">20</div></pre></td><td class="code"><pre><div class="line">                   _ooOoo_</div><div class="line">                  o8888888o</div><div class="line">                  88&quot; . &quot;88</div><div class="line">                  (| -_- |)</div><div class="line">                  O\  =  /O</div><div class="line">               ____/`---&apos;\____</div><div class="line">             .&apos;  \\|     |//  `.</div><div class="line">            /  \\|||  :  |||//  \</div><div class="line">           /  _||||| -:- |||||-  \</div><div class="line">           |   | \\\  -  /// |   |</div><div class="line">           | \_|  &apos;&apos;\---/&apos;&apos;  |   |</div><div class="line">           \  .-\__  `-`  ___/-. /</div><div class="line">         ___`. .&apos;  /--.--\  `. . __</div><div class="line">      .&quot;&quot; &apos;&lt;  `.___\_&lt;|&gt;_/___.&apos;  &gt;&apos;&quot;&quot;.</div><div class="line">     | | :  `- \`.;`\ _ /`;.`/ - ` : | |</div><div class="line">     \  \ `-.   \_ __\ /__ _/   .-` /  /</div><div class="line">======`-.____`-.___\_____/___.-`____.-&apos;======</div><div class="line">                   `=---=&apos;</div><div class="line">^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^</div><div class="line">         与世界交手那么多年，你是否风采依旧？</div></pre></td></tr></table></figure>]]></content>
     
     <summary type="html">
     
-      &lt;p&gt;&lt;img src=&quot;/assets/img/Mac-CSV文件乱码解决方法.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
-&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;lin
+      &lt;p&gt;打开终端（可以command+空格键，然后输入ter自动打开终端）  &lt;/p&gt;
+&lt;p&gt;输入 cd /etc&lt;/p&gt;
+&lt;p&gt;输入 sudo pico motd&lt;/p&gt;
+&lt;p&gt;然后将想要输入的图案或文字在终端中粘贴&lt;/p&gt;
+&lt;p&gt;最后，按键：control+x ,再按y回车保存
     
     </summary>
     
     
       <category term="Mac" scheme="http://azmake.github.io/tags/Mac/"/>
     
-      <category term="Excel" scheme="http://azmake.github.io/tags/Excel/"/>
+      <category term="Linux、Unix" scheme="http://azmake.github.io/tags/Linux%E3%80%81Unix/"/>
+    
+      <category term="terminal" scheme="http://azmake.github.io/tags/terminal/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>U盘刻录成系统盘后如何格式化回来</title>
+    <link href="http://azmake.github.io/2017/01/18/windows-u/"/>
+    <id>http://azmake.github.io/2017/01/18/windows-u/</id>
+    <published>2017-01-18T08:58:16.000Z</published>
+    <updated>2017-01-18T09:05:21.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="/assets/img/Windows-u.jpg" alt=""></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div><div class="line">10</div><div class="line">11</div><div class="line">12</div><div class="line">13</div><div class="line">14</div><div class="line">15</div><div class="line">16</div><div class="line">17</div></pre></td><td class="code"><pre><div class="line">使用快捷键  </div><div class="line"></div><div class="line">win＋R ,输入cmd，按enter键进入命令行</div><div class="line"></div><div class="line">输入命令：diskpart</div><div class="line"></div><div class="line">列出所有磁盘:list  disk  </div><div class="line"></div><div class="line">输入命令：select disk (盘号 0或者1等数字)选择需要格式化的磁盘  注意：一定要看准磁盘号，没有后悔药</div><div class="line"></div><div class="line">输入命令：clean</div><div class="line"></div><div class="line">退出终端：exit</div><div class="line"></div><div class="line">桌面－我的电脑－右键－管理－管理工具－创建并格式化硬盘分区</div><div class="line"></div><div class="line">重新对此盘进行分区就可以了。</div></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;/assets/img/Windows-u.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/
+    
+    </summary>
+    
+    
+      <category term="Windows" scheme="http://azmake.github.io/tags/Windows/"/>
+    
+      <category term="分区/格式化" scheme="http://azmake.github.io/tags/%E5%88%86%E5%8C%BA-%E6%A0%BC%E5%BC%8F%E5%8C%96/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Mac csv 文件乱码解决方案</title>
+    <link href="http://azmake.github.io/2017/01/18/mac-csv/"/>
+    <id>http://azmake.github.io/2017/01/18/mac-csv/</id>
+    <published>2017-01-18T08:45:51.000Z</published>
+    <updated>2017-01-18T08:51:20.000Z</updated>
+    
+    <content type="html"><![CDATA[<p><img src="/assets/img/mac_csv.jpg" alt=""></p>
+<figure class="highlight plain"><table><tr><td class="gutter"><pre><div class="line">1</div><div class="line">2</div><div class="line">3</div><div class="line">4</div><div class="line">5</div><div class="line">6</div><div class="line">7</div><div class="line">8</div><div class="line">9</div></pre></td><td class="code"><pre><div class="line">1、在 Mac 上启动 Excel，新建一个空文件  </div><div class="line"></div><div class="line">2、File =&gt; import  </div><div class="line"></div><div class="line">3、选择要打开的CSV文件</div><div class="line"></div><div class="line">4、调整 File origin 选项里的文字编码，一般是 UTF8 或者GBK2312，可以预览是否是正确的编码，这里可以看到分隔符是&apos;，&apos;还是&apos;；&apos;或者其它</div><div class="line"></div><div class="line">5、选择步骤4中预览看到的分隔符分隔符,确定</div></pre></td></tr></table></figure>]]></content>
+    
+    <summary type="html">
+    
+      &lt;p&gt;&lt;img src=&quot;/assets/img/mac_csv.jpg&quot; alt=&quot;&quot;&gt;&lt;/p&gt;
+&lt;figure class=&quot;highlight plain&quot;&gt;&lt;table&gt;&lt;tr&gt;&lt;td class=&quot;gutter&quot;&gt;&lt;pre&gt;&lt;div class=&quot;line&quot;&gt;1&lt;/di
+    
+    </summary>
+    
+    
+      <category term="Mac" scheme="http://azmake.github.io/tags/Mac/"/>
+    
+      <category term="excel" scheme="http://azmake.github.io/tags/excel/"/>
     
   </entry>
   
   <entry>
     <title>Hello World</title>
-    <link href="http://azmake.github.io/2016/12/01/hello-world/"/>
-    <id>http://azmake.github.io/2016/12/01/hello-world/</id>
-    <published>2016-12-01T05:54:54.000Z</published>
-    <updated>2016-12-01T06:12:11.000Z</updated>
+    <link href="http://azmake.github.io/2017/01/18/hello-world/"/>
+    <id>http://azmake.github.io/2017/01/18/hello-world/</id>
+    <published>2017-01-18T08:32:59.000Z</published>
+    <updated>2017-01-18T08:32:59.000Z</updated>
     
     <content type="html"><![CDATA[<p>Welcome to <a href="https://hexo.io/" target="_blank" rel="external">Hexo</a>! This is your very first post. Check <a href="https://hexo.io/docs/" target="_blank" rel="external">documentation</a> for more info. If you get any problems when using Hexo, you can find the answer in <a href="https://hexo.io/docs/troubleshooting.html" target="_blank" rel="external">troubleshooting</a> or you can ask me on <a href="https://github.com/hexojs/hexo/issues" target="_blank" rel="external">GitHub</a>.</p>
 <h2 id="Quick-Start"><a href="#Quick-Start" class="headerlink" title="Quick Start"></a>Quick Start</h2><h3 id="Create-a-new-post"><a href="#Create-a-new-post" class="headerlink" title="Create a new post"></a>Create a new post</h3><figure class="highlight bash"><table><tr><td class="gutter"><pre><div class="line">1</div></pre></td><td class="code"><pre><div class="line">$ hexo new <span class="string">"My New Post"</span></div></pre></td></tr></table></figure>
